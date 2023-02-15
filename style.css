@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Julee', cursive;
+    background-image: url(https://img2.goodfon.ru/wallpaper/nbig/4/77/bmw-x5-audi-q7-range-rover.jpg);
+    background-size: cover;
+    background-color: #fff;
+}
+.header {
+    background-color: #000;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+}
+.header__body {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo {
+    font-size: 60px;
+    color: #fff;
+}
+.header__menu {
+}
+.header__menu-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 30px;
+    font-size: 21px;
+}
+.title {
+    text-align: center;
+}
+.countainer {
+    width: 1200px;
+    margin: 0 auto;
+    height: 2000px;
+}
+.countainer__many {
+}
+.movies-left {
+}
+.countainer__cards {
+}
+.card {
+    width: 500px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 10px;
+    color: #b86060;
+}
+.card__title {
+
+}
+.card__img:hover{
+    transform: rotate(360deg);
+    transition: 2s;
+    cursor: pointer;
+}
+.card__img {
+    width: 200px;
+    height: 90px;
+    background-size: cover;
+    border-radius: 20px;
+}
+.footer {
+}
+.footer__menu {
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;/*обнуление отступов*/
+    padding: 0;/*обнуление полей*/
+    box-sizing: border-box;/*метод расчета размеров бокса*/
+    font-family: 'Poppins', sans-serif;/*название шрифта*/
+}
+body {
+    display: flex;/*флексбокс сетка*/
+    flex-direction: column;/*направление главной оси*/
+    justify-content: flex-end;/*элементы в конце контейнера*/
+    min-height: 100vh;
+}
+footer{
+    position: relative;/*относительное позиционирование*/
+    width: 100%;/*на всю ширину*/
+    padding: 20px 50px;/*поля для контента*/
+    background: #3586ff;/*цвет футера*/
+    display: flex;
+    justify-content: center;/*в центре по горизонтали*/
+    align-items: center;/*в центре по вертикали*/
+    flex-direction: column;
+    margin-top: 100px;/*отступ сверху*/
+}
+footer .wave{
+    position: absolute;/*абсолютное позиционирование*/
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(wave.png);/*картинка волны*/
+    background-size: 1000px 100px;/*ширина и высота волны*/
+}
+.social,
+.menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;/*разрешен перенос на новую строку*/
+}
+.social li,
+.menu li{
+    list-style: none;/*удалить черные маркеры*/
+}
+.social li a {
+    font-size: 2em;/*размер иконок*/
+    color: #fff;/*цвет иконок*/
+    margin: 0 10px;
+    display: inline-block;/*отображать как строчно-блочный элемент*/
+    transition: 0.5s;/*плавный переход*/
+}
+.menu li a {
+    font-size: 1.2em;/*размер ссылок меню*/
+    color: #fff;/*цвет ссылок меню*/
+    opacity: 0.75;/*значение прозрачности*/
+    margin: 0 15px;
+    text-decoration: none;/*ссылка без подчеркивания*/
+    display: inline-block;
+}
+.menu li a:hover {
+    opacity: 1;
+}
+footer p {
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.1em;
+}    
+.countainer-2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    font-size: 21px;
+}
+.card-2 {
+    background-color: #000;
+    border-radius: 5px;
+}
